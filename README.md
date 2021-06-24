@@ -65,9 +65,10 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 -Configuration can be done remotely and repeatedly across many machines (if needed). This improves the scalable efficiency of deploying these changes.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Install docker
+- Download an ELK image. In this case, sebp:761 was used
+- Start and attach the image in a new container.
+- Ensure the container has the appropriate ports configured (pictured below)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
