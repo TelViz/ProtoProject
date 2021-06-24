@@ -93,7 +93,6 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the IP addresses of the target machines
 - Run the playbook, and navigate to <IP>/setup.php to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - The file is my-playbook.yml and it is in the /etc/ansible folder.
 - The hosts file contains the IP addresses of the target machines. The addresses are under headers such as [webserver] or [elk] to allow different groups to receive different configurations. These can be used to only apply the beats to the [elk] server.
 - <Elk-Public-IP>/app/kibana displays the human-readable data that the elk stack is processing.
